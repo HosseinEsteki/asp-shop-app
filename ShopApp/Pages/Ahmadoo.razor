@@ -1,0 +1,35 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+@foreach (var item in myClasses)
+{
+    <p>@($"{item.Id}. {item.Name}")</p>
+}
+
+
+@code {
+    private int currentCount = 0;
+    List<MyClass> myClasses;
+    private void IncrementCount()
+    {
+        currentCount++;
+        myClasses.Add(new MyClass { Id = 1, Name = "sara" });
+
+    }
+    protected override Task OnInitializedAsync()
+    {
+        myClasses=new List<MyClass>();
+        myClasses.Add(new MyClass { Id = 1, Name = "Ahmad" });
+        myClasses.Add(new MyClass { Id = 2, Name = "samad" });
+        myClasses.Add(new MyClass { Id = 3, Name = "hojat" });
+        myClasses.Add(new MyClass { Id = 4, Name = "babak" });
+        return base.OnInitializedAsync();
+
+    }
+}

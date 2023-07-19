@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ShopApp
+build_property.RootNamespace = ShopApp
+build_property.ProjectDir = D:\Projects\Visual Studio\ShopApp\ShopApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projects\Visual Studio\ShopApp\ShopApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Pages/Ahmadoo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWhtYWRvby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Shared/Ahmad.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFobWFkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-f4ye9rtl2l
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-abs881jmk9
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Pages/cat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2F0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Visual Studio/ShopApp/ShopApp/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

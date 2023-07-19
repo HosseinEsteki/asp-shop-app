@@ -1,0 +1,61 @@
+﻿@page "/"
+@using Microsoft.EntityFrameworkCore;
+
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world! </h1>
+<button class="btn btn-success" @onclick="addProperty"> Add </button>
+<button class="btn btn-primary" @onclick="SaveChange"> Save </button>
+
+@for (int i=0;i<Cat.Properties.Count();i++)
+{
+    @*if (i >= Properties.Count())
+        break;*@
+    var pro = Cat.Properties.ToArray()[i];
+    <div class="row">
+        <div class="col-md-3">
+            <select class="form-control" @bind="CategoryProperties">
+                @{
+                    int catt = CategoryProperties[i];
+                    int xxx = 0;
+                }
+                @foreach (var property in Properties)
+                {
+                    bool check = pro.Id==property.Id;
+                    <option value="@property.Id" selected="@check">@property.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+}
+
+@code {
+    ShopAppDBContext db = new ShopAppDBContext();
+    Category Cat;
+    List<Property> Properties;
+    int[] CategoryProperties;
+    protected override void OnInitialized()
+    {
+        db.Database.EnsureCreated();
+        Properties = db.Properties.ToList();
+        Cat = db.Categories.Include(x => x.Properties).FirstOrDefault();
+        CategoryProperties = new int[3];
+        
+        base.OnInitialized();
+    }
+    protected override void OnAfterRender(bool firstRender)
+    {
+       
+        base.OnAfterRender(firstRender);
+    }
+    void addProperty()
+    {
+        Cat.Properties.Add(new Property());
+    }
+    void SaveChange()
+    {
+        db.SaveChanges();
+    }
+
+}
